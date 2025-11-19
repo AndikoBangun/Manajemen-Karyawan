@@ -17,7 +17,7 @@
         </div>
         <div class="mb-4">
             <label class="block text-gray-700">Divisi</label>
-            <input type="text" name="jabatan" value="{{ $employee->divisi }}" 
+            <input type="text" name="divisi" value="{{ $employee->divisi }}" 
                    class="w-full border-gray-300 rounded-md p-2" required>
         </div>
         <div class="mb-4">
@@ -27,17 +27,17 @@
         </div>
         <div class="mb-4">
             <label class="block text-gray-700">No HP</label>
-            <input type="text" name="jabatan" value="{{ $employee->no_hp }}" 
+            <input type="text" name="no_hp" value="{{ $employee->no_hp }}" 
                    class="w-full border-gray-300 rounded-md p-2" required>
         </div>
         <div class="mb-4">
             <label class="block text-gray-700">Gaji</label>
-            <input type="text" name="jabatan" value="{{ $employee->gaji }}" 
+            <input type="text" name="gaji" value="{{ $employee->gaji }}" 
                    class="w-full border-gray-300 rounded-md p-2" required>
         </div>
         <div class="mb-4">
             <label class="block text-gray-700">Tanggal Masuk</label>
-            <input type="date" name="jabatan" value="{{ $employee->tanggal_masuk }}" 
+            <input type="date" name="tanggal_masuk" value="{{ $employee->tanggal_masuk }}" 
                    class="w-full border-gray-300 rounded-md p-2" required>
         </div>
         <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">

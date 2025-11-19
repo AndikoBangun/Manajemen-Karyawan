@@ -44,6 +44,7 @@ class AuthController extends Controller
                 'jabatan' => 'Belum ditentukan',
                 'divisi' => 'Belum ditentukan',
                 'no_hp' => '-',
+                'gaji' => '-',
                 'tanggal_masuk' => now(),
             ]);
         }
