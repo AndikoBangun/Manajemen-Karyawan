@@ -46,7 +46,7 @@
                     <td class="px-4 py-3 capitalize">{{ $lap->bulan }}</td>
                     <td class="px-4 py-3">{{ $lap->created_at->format('d M Y') }}</td>
                     <td class="px-4 py-3 text-center">
-                        <a href="{{ asset('storage/laporan/'.$lap->file) }}"
+                        <a href="{{ asset('storage/'.$lap->file) }}"
                            target="_blank"
                            class="px-3 py-1 text-xs bg-blue-600 text-white rounded hover:bg-blue-700">
                            Download
